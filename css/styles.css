@@ -554,7 +554,36 @@ header > .container {
   &:focus::placeholder {
     color: transparent;
   }
+
+  /* &.error {
+    border-color: red;
+
+    &::placeholder {
+      color: red;
+    }
+  }
+
+  &:invalid {
+    border-color: red;
+
+    &::placeholder {
+      color: red;
+    }
+  } */
 }
+
+/* .error-text {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #d64040;
+}
+
+.support__input.error + .error-text,
+.support__input:invalid + .error-text {
+  display: block;
+} */
 
 .textarea {
   height: 180px;
